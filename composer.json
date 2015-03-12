@@ -1,0 +1,23 @@
+{
+  "name":         "lenardpalko/video-length-validator",
+  "description":  "A library for validating video length",
+  "homepage":     "https://github.com/lenardpalko/VideoLengthValidator",
+  "type":         "Library",
+  "keywords":     ["video", "length", "validator"],
+  "license":      "MIT",
+  "authors": [
+    {"name": "Lenard Palko"}
+  ],
+  "require":      {
+    "php": ">= 5.3.3",
+    "php-ffmpeg/php-ffmpeg": "~0.6"
+  },
+  "require-dev" :   {
+    "phpunit/phpunit": "~4.4"
+  },
+  "autoload": {
+    "psr-0": {
+      "LenardPalko\\": "src/"
+    }
+  }
+}
